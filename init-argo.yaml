@@ -17,7 +17,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: "hhttps://github.com/spimmer/argo-test.git"
+        repoURL: "https://github.com/spimmer/argo-test.git"
         targetRevision: HEAD
         path: apps/{{path.basename}}
       destination:
