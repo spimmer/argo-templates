@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/spimmer/argo-test.git
     targetRevision: HEAD
-    path: apps/dummy-pod
+    path: apps/dummy-pod/manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: test-app
