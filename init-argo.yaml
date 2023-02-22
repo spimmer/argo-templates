@@ -13,16 +13,12 @@ spec:
       - path: apps/*
   template:
     metadata:
-      name: 'app-config-{{path[1]}}'
+      name: 'app-config-{{path.basename}}'
     spec:
       project: default
       source:
         repoURL: "hhttps://github.com/spimmer/argo-test.git"
         targetRevision: HEAD
-        path: apps/{{path[1]}}
+        path: apps/{{path.basename}}
       destination:
         server: 'https://kubernetes.default.svc'
-      syncPolicy:
-        automated:
-          prune: false
-          selfHeal: false
