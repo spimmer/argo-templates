@@ -4,3 +4,4 @@ scanner:
   replicas: 1
 containerd:
   enabled: true
+  path: /run/k3s/containerd/containerd.sock
