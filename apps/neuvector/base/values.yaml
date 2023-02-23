@@ -2,3 +2,5 @@ controller:
   replicas: 1
 scanner:
   replicas: 1
+containerd:
+  enabled: true
