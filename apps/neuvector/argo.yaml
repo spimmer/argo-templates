@@ -15,7 +15,7 @@ spec:
       - ../base/values.yaml
   destination:
     server: https://kubernetes.default.svc
-    namespace: neuvector
+    namespace: cattle-neuvector-system
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
