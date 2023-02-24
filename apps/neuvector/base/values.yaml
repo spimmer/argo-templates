@@ -3,6 +3,8 @@ global:
     url: "rancher-spim.sva.wtf"
 controller:
   replicas: 1
+  ranchersso:
+    enabled: true
 scanner:
   replicas: 1
 k3s:
