@@ -1,6 +1,6 @@
 global:
   cattle:
-    url: "rancher-spim.sva.wtf"
+    url: https://rancher-spim.sva.wtf
 controller:
   replicas: 1
   ranchersso:
