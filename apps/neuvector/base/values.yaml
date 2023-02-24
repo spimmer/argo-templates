@@ -1,3 +1,6 @@
+global:
+  cattle:
+    url: "rancher-spim.sva.wtf"
 controller:
   replicas: 1
 scanner:
