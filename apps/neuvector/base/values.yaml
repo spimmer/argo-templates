@@ -5,7 +5,8 @@ controller:
   replicas: 1
   ranchersso:
     enabled: true
-scanner:
-  replicas: 1
+cve:
+  scanner:
+    replicas: 1
 k3s:
   enabled: true
